@@ -1,4 +1,4 @@
-import { PortfolioItem } from '../types'
+import type { PortfolioItem } from '../types'
 
 export function PortfolioGallery({ items }: { items: PortfolioItem[] }) {
 	return (
